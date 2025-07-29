@@ -9,6 +9,7 @@ dist/
 credentials/
 .gdrive-server-credentials.json
 gcp-oauth.keys.json
+*.json
 
 # IDE files
 .vscode/
@@ -20,4 +21,7 @@ npm-debug.log*
 
 # OS files
 .DS_Store
-Thumbs.db 
+Thumbs.db
+
+# Build files
+**/*.pyc 
